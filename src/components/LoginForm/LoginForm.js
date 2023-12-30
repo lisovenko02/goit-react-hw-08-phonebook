@@ -15,7 +15,6 @@ export const LoginForm = () => {
     }}>
         <Formik
        initialValues={{ email: '', password: '' }}
-    //    validationSchema = {contactsSchema}
        onSubmit={(values, actions) => {
         dispatch(login({
           email: values.email,
